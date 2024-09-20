@@ -52,8 +52,11 @@ export const BentoGridItem = ({
 
     const [copied, setCopied] = useState(false);
     const handleCopy = () => {
-        navigator.clipboard.writeText("akhader@ucsd.edu");
-        setCopied(true);
+        if(copied){setCopied(false);}
+        else{
+            navigator.clipboard.writeText("akhader@ucsd.edu");
+            setCopied(true);
+        }
     }
 
   return (
