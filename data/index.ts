@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize project development and seamless user experiences",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -28,7 +28,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
+    title: "My main tech stack",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiast with a passion for robotics",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a conversational AI Assistant",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -140,25 +140,25 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
+    name: "Product Manager Accelerator",
     img: "/cloud.svg",
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
+    name: "Ocelot",
     img: "/app.svg",
     nameImg: "/appName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
+    name: "Break Through Tech AI at UCLA",
     img: "/host.svg",
     nameImg: "/hostName.svg",
   },
   {
     id: 4,
-    name: "stream",
+    name: "University of California - San Diego",
     img: "/s.svg",
     nameImg: "/streamName.svg",
   },
@@ -173,29 +173,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Software Engineering Intern",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "AI Studio Fellow",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "AI Fellow",
+    desc: "Implemented machine and deep learning models, such as CNNs and ensemble modeling.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Instructional Assistant",
+    desc: "Assisted in the instruction and assessment of 800+ students in advanced topics using C.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -208,10 +208,6 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
   },
 ];
