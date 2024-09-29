@@ -88,19 +88,19 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Huffman Coding Encryption",
-    des: "Encrypt your files using the Huffman Encryption algorithm, and do it using 25% less space for smaller files.",
+    title: "YouTubeOffline - YouTube Video Downloader",
+    des: "Download any YouTube video for free using PyTube and MoviePy by providing the link in a text file or directly into the terminal.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/aokhader/HuffmanCoding",
+    link: "https://github.com/aokhader/YouTubeOffLine",
   },
   {
     id: 4,
-    title: "Samosa Clicker",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Huffman Coding Encryption and Compression",
+    des: "Encrypt and compress your files using the Huffman Coding algorithm, and do it using 25% less space for smaller files.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://github.com/aokhader/HuffmanCoding",
   },
 ];
 
