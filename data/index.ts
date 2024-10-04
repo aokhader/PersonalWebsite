@@ -96,7 +96,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Huffman Coding Encryption and Compression",
+    title: "Huffman Coding Encryption",
     des: "Encrypt and compress your files using the Huffman Coding algorithm, and do it using 25% less space for smaller files.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
