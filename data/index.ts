@@ -76,7 +76,7 @@ export const projects = [
     des: "Maintain a journal to track your daily journey, as well as show your tasks and action items in a calendar display.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/cse110-sp24-group21/cse110-sp24-group21",
+    link: "www.github.com/cse110-sp24-group21/cse110-sp24-group21",
   },
   {
     id: 2,
@@ -84,7 +84,7 @@ export const projects = [
     des: "Implemented various graph algorithms such as BFS and SCC using C++ and displayed them on a web browser.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/aokhader/GraphAlgorithms",
+    link: "www.github.com/aokhader/GraphAlgorithms",
   },
   {
     id: 3,
@@ -92,7 +92,7 @@ export const projects = [
     des: "Download any YouTube video for free using PyTube and MoviePy by providing the link in a text file or directly into the terminal.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/aokhader/YouTubeOffLine",
+    link: "www.github.com/aokhader/YouTubeOffLine",
   },
   {
     id: 4,
@@ -100,7 +100,7 @@ export const projects = [
     des: "Encrypt and compress your files using the Huffman Coding algorithm, and do it using 25% less space for smaller files.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/aokhader/HuffmanCoding",
+    link: "www.github.com/aokhader/HuffmanCoding",
   },
 ];
 
