@@ -3,7 +3,7 @@
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBG";
 import { GlobeDemo } from "./GridGlobe";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import animationData from "@/data/confetti.json";
 import Lottie from "react-lottie";
 import { IoCopyOutline } from "react-icons/io5";
@@ -51,8 +51,12 @@ export const BentoGridItem = ({
 }) => {
 
     const [copied, setCopied] = useState(false);
+    const lottieRef = useRef(null);
+    
     const handleCopy = () => {
-        if(copied){setCopied(false);}
+        if(copied){
+            setCopied(false);
+        }
         else{
             navigator.clipboard.writeText("akhader@ucsd.edu");
             setCopied(true);
@@ -113,7 +117,7 @@ export const BentoGridItem = ({
             {id === 3 && (
                 <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
                     {/* Left List */}
-                    <div className="flex flex-col gap-3 lg:gap-8">
+                    <div className="flex flex-col gap-3 lg:gap-5">
                         {["React.js", "Next.js", "Typescript"].map((item) => (
                             <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"> 
                                 {item}
@@ -123,7 +127,7 @@ export const BentoGridItem = ({
                     </div>
 
                     {/* Right List */}
-                    <div className="flex flex-col gap-3 lg:gap-8">
+                    <div className="flex flex-col gap-3 lg:gap-5">
                         <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]"/>
                         {["TensorFlow", "Keras", "NLTK"].map((item) => (
                             <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"> 
@@ -141,11 +145,13 @@ export const BentoGridItem = ({
                             options={{
                                 loop: copied,
                                 autoplay: copied,
-                                animationData,
+                                animationData: animationData,
                                 rendererSettings: {
                                     preserveAspectRatio: "xMidYMid slice",
                                 }
                             }}
+                            isStopped={!copied}
+                            ref={lottieRef}
                         />
                     </div>
 
