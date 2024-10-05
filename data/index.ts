@@ -83,7 +83,7 @@ export const projects = [
     title: "DevJournal - Full-stack Developer Journal",
     des: "Maintain a journal to track your daily journey, as well as show your tasks and action items in a calendar display.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    iconLists: ["/html.svg", "/css.svg", "/js.svg", "/figma.svg"],
     link: "www.github.com/cse110-sp24-group21/cse110-sp24-group21",
   },
   {
@@ -91,7 +91,7 @@ export const projects = [
     title: "Visual Graph Algorithms",
     des: "Implemented various graph algorithms such as BFS and SCC using C++ and displayed them on a web browser.",
     img: "/p2.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail\.svg", "/ts.svg", "/cpp.svg"],
     link: "www.github.com/aokhader/GraphAlgorithms",
   },
   {
@@ -99,7 +99,7 @@ export const projects = [
     title: "YouTubeOffline - YouTube Video Downloader",
     des: "Download any YouTube video for free using PyTube and MoviePy by providing the link in a text file or directly into the terminal.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+    iconLists: ["/python.svg", "/datastream.svg"],
     link: "www.github.com/aokhader/YouTubeOffLine",
   },
   {
@@ -107,7 +107,7 @@ export const projects = [
     title: "Huffman Coding Encryption",
     des: "Encrypt and compress your files using the Huffman Coding algorithm, and do it using 25% less space for smaller files.",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gsap.svg"],
+    iconLists: ["/cpp.svg", "/binary.svg"],
     link: "www.github.com/aokhader/HuffmanCoding",
   },
 ];
