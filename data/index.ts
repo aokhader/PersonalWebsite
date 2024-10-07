@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "DevJournal - Full-stack Developer Journal",
     des: "Maintain a journal to track your daily journey, as well as show your tasks and action items in a calendar display.",
-    img: "/p1.svg",
+    img: "/DevJournal.png",
     iconLists: ["/html.svg", "/css.svg", "/js.svg", "/figma.svg"],
     link: "www.github.com/cse110-sp24-group21/cse110-sp24-group21",
   },
@@ -90,8 +90,8 @@ export const projects = [
     id: 3,
     title: "Visual Graph Algorithms",
     des: "Implemented various graph algorithms such as BFS and SCC using C++ and displayed them on a web browser.",
-    img: "/p2.svg",
-    iconLists: ["/re.svg", "/tail\.svg", "/ts.svg", "/cpp.svg"],
+    img: "/wg.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/cpp.svg"],
     link: "www.github.com/aokhader/GraphAlgorithms",
   },
   {
@@ -106,7 +106,7 @@ export const projects = [
     id: 5,
     title: "Huffman Coding Encryption",
     des: "Encrypt and compress your files using the Huffman Coding algorithm, and do it using 25% less space for smaller files.",
-    img: "/p4.svg",
+    img: "/Huffman.png",
     iconLists: ["/cpp.svg", "/binary.svg"],
     link: "www.github.com/aokhader/HuffmanCoding",
   },
@@ -181,31 +181,31 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Software Engineering Intern - PM Accelerator",
+    title: "Software Engineering Intern",
     desc: "Developing a AI chess coach that analyzes a player's games and discover reoccuring mistakes.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/PMA_2.png",
   },
   {
     id: 2,
-    title: "AI Studio Fellow - Ocelot",
+    title: "AI Studio Fellow",
     desc: "Creating a chatbot the uses conversational context to cover a range of topics for students.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/ocelot.png",
   },
   {
     id: 3,
-    title: "AI Fellow - Break Through Tech at UCLA",
+    title: "AI Fellow",
     desc: "Implemented machine and deep learning models, such as CNNs and ensemble modeling.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/bttai.svg",
   },
   {
     id: 4,
-    title: "Instructional Assistant - UC San Diego",
+    title: "Instructional Assistant",
     desc: "Assisted in the instruction and assessment of 800+ students in advanced topics using C.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/UCSD_Seal.png",
   },
 ];
 
